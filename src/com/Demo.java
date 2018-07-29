@@ -63,6 +63,6 @@ public class Demo {
         driver.quit();
     }
     public void tearDown3() throws Exception {
-        driver.quit()2;
+        driver.quit()3;
     }
 }
