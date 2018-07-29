@@ -59,4 +59,7 @@ public class Demo {
     public void tearDown() throws Exception {
         driver.quit();
     }
+    public void tearDown3() throws Exception {
+        driver.quit();
+    }
 }
