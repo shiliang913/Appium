@@ -53,8 +53,11 @@ public class Demo {
         textFieldsList.get(2).sendKeys("demo@example.com");
         driver.swipe(100, 500, 100, 100, 2);
         driver.findElementByName("Save").click();
-    }    
-    
+    } 
+    @Test	
+    public void addContact1(){
+	  assertTrue(True);	
+	}
     @After
     public void tearDown() throws Exception {
         driver.quit();
